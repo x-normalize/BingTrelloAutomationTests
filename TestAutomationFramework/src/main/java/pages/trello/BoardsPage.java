@@ -43,9 +43,4 @@ public class BoardsPage extends BaseTrelloPage {
         }
 
     }
-
-    public void clickOnBoard(String boardName) {
-        actions.waitForElementVisible("trello.boardsPage.boardByTeamAndName");
-        actions.clickElement("trello.boardsPage.boardByTeamAndName", boardName);
-    }
 }
