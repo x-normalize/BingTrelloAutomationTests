@@ -1,14 +1,25 @@
-# Selenium-WebDriver-II-Homework
+# Test Automation Framework
 
-## Homework:
+## Overview
+This framework, utilized throughout the course, automates test cases for web applications. It includes comprehensive test scenarios for Bing and Trello, showcasing functionalities like search operations, board and card management, and user interactions on these platforms.
 
-- Clone locally and review the TestAutomationFramework repo.
-- Set your credentials in the config.properties file.
-- Finish the unimplemented scenarios.
+## Setup
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install necessary dependencies (e.g., Selenium WebDriver, JUnit).
+4. Execute Tests.
 
-## Instructions
+## Test Scenarios
+### Bing Tests
+**Package**: `test.cases.bing`
 
-- Clone repository
-- Open TestAutomationFramework[test-automation-framework] as a IntelliJ IDEA Project
-- Build
-- Run tests in src\test\java\testCases
+These tests ensure the functionality of the Bing search engine, including the visibility of search elements and the accuracy of search results.
+
+### Trello Tests
+**Package**: `test.cases.trello`
+
+These tests encompass various Trello functionalities such as board and card creation, manipulation of cards within boards, and deletion of boards.
+
+## Technologies Used
+- Selenium WebDriver
+- JUnit
